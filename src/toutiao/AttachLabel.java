@@ -24,8 +24,8 @@ public class AttachLabel {
 				map[i][j] = Integer.parseInt(strs[j]);
 		}
 		sc.close();
-		//int[] result=searchIce(m,n,map);
-		int[] result = connectDomain(m, n, map);
+		//int[] result=searchIce(m,n,map);//方法一
+		int[] result = connectDomain(m, n, map);//方法二
 		System.out.println(result[0] + "," + result[1]);
 	}
 
